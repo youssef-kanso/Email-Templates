@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+.email {
+    width: 100%;
+    height: 30%;
+    background-image: url('../img/email-background.svg');
+    background-size: cover;
+}
+
+.logo {
+    width: 15%;
+    margin: 0 auto;
+    max-width: 130px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.headerTitle {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 12px auto;
+}
+.headerTitle span{
+    font-size: 110%;
+}
+
+.content {
+    height: auto;
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 15px 45px;
+}
+
+.content p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.table {
+    border: 1px solid black;
+    margin: 15px auto 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: darkgray;
+}
+
+table, th, td {
+    width: 50%;
+    height: 40%;
+    text-align: left;
+    font-size: 24px;
+}
+
+.button-container {
+    width: 40%;
+    margin: 15px auto;
+}
+
+.button {
+    background-color: #97d639;
+    color: #ffffff;
+    height: 42px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
