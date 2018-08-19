@@ -2,7 +2,7 @@
 <html dir="rtl" lang="ar">
     <head>
         <meta charset="UTF-8">
-        <style>
+       <style type="text/css">
             body {
                 margin: 0;
             }
@@ -82,36 +82,61 @@
             .button-container {
                 width: 300px;
                 margin: 15px auto;
+                border: none;
             }
 
             .button {
-                background-color: #97d639;
-                color: #ffffff;
+                background-color: #97d639!important;
+                text-align: center;
                 padding: 15px 30px;
                 font-size: 20px;
                 border: none;
                 border-radius: 5px;
-                margin:auto;
-                margin-left:50px;
+                margin: auto;
+                margin-left: 50px;
                 cursor: pointer;
-                text-decoration: none;
+                text-decoration: none!important;
             }
+         
+         	table {
+              	border-collapse:separate;
+         	}
+         
+            a, a:link, a {
+              	text-decoration: none; 
+              	color: #00788a;
+         	} 
+            
+         	a:hover {
+              	text-decoration: underline;
+         	}
+            
+         	h2,h2 a,h2 a,h3,h3 a,h3 a,h4,h5,h6,.t_cht {
+              	color:#000;
+         	}
+         
+            .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td {
+              	line-height: 100%;
+         	}
+            .ExternalClass {
+              	width: 100%;
+         	}
         </style>
         <style data-premailer="ignore">
-        /* Media Query Rules */
         </style>
+      <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
     </head>
 
     <body>
         <div class="email">
-            <section class="header">
+            <div class="header">
                 <div class="logo">
                     <img src="https://s3-eu-west-1.amazonaws.com/ionoviewimages/matic-logo.png">
                 </div>
                 <p class="headerTitle">مبلغ مستحق</p>
-            </section>
+            </div>
 
-            <section class="content">
+            <div class="content">
                 <p>عزيزي (الاسم)</p>
 
                 <p>
@@ -125,7 +150,7 @@
                 <p> شكراً ! </p>
 
                 <p>فريق ماتك</p>
-
+              
                 <p> للمساعدة :  </p>
 
                 <p><a class="links">care@maticservices.com</a></p>
@@ -154,11 +179,14 @@
                         </tr>
                     </tbody>
                 </table>
-
-                <div class="button-container">
-                    <a href="#" class="button">View your account</a>
-                </div>
-            </section>
+                <table class="button-container">
+                    <tr>
+                        <td class="button"> 
+                            <a style="color: #ffffff;">View your account</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </body>
 </html>
