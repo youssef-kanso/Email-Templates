@@ -23,6 +23,7 @@
                 width: 15%;
                 margin: 0 auto;
                 max-width: 130px;
+                min-width: 95px;
             }
 
             .logo img {
@@ -37,6 +38,11 @@
                 color: #ffffff;
                 font-weight: bold;
                 margin: 12px auto;
+            }
+            
+            .email-body {
+                background: transparent ;
+                backface-visibility: hidden;
             }
 
             .content {
@@ -71,6 +77,7 @@
             .links {
                 color:#00bdff;
                 text-decoration: none;
+                cursor: pointer;
             }
 
             .table {
@@ -82,7 +89,7 @@
             }
 
             table thead {
-                background-color: darkgray;
+                background-color: rgba(185, 185, 185, 0.904);
             }
 
             table, th, td{
@@ -107,6 +114,7 @@
                 border-radius: 5px;
                 margin: auto;
                 margin-left: 50px;
+                cursor: pointer;
                 text-decoration: none !important;
             }
 
@@ -160,56 +168,56 @@
                 <p class="headerTitle">مبلغ مستحق</p>
             </div>
 
-            <div class="content">
-                <p class="greeting">عزيزي (الاسم)</p>
+            <div class="email-body">
+                <div class="content">
+                    <p class="greeting">عزيزي (الاسم)</p>
 
-                <p class="text">
-                لديك حاليًا مبلغ مستحق متاخر دفعه بقيمة  <a href="" class="links">   300  </a>   درهم. سنقوم 
-                    بمحاولة خصم المبلغ المستحق من بطاقتك المسجلة في ملفك
-                    الشخصي لتتمكن من الاستمرار في التمتع بخدماتنا. في حال تم 
-                    تسوية المبلغ المستحق على حسابك يرجى تجاهل هذه 
-                    . الرسالة واطمئن لن تتم محاسبتك مرتين 
-                </p>
+                    <p class="text">
+                    لديك حاليًا مبلغ مستحق متاخر دفعه بقيمة  <a href="" class="links">   300  </a>   درهم. سنقوم 
+                        بمحاولة خصم المبلغ المستحق من بطاقتك المسجلة في ملفك
+                        الشخصي لتتمكن من الاستمرار في التمتع بخدماتنا. في حال تم 
+                        تسوية المبلغ المستحق على حسابك يرجى تجاهل هذه 
+                        . الرسالة واطمئن لن تتم محاسبتك مرتين 
+                    </p>
 
-                <p class="signature"> شكراً ! </p>
+                    <p class="signature"> شكراً ! </p>
 
-                <p class="signature">فريق ماتك</p>
-              
-                <p style="margin-top:50px; margin-bottom: 0px;"> للمساعدة :  </p>
+                    <p class="signature">فريق ماتك</p>
+                
+                    <p style="margin-top:50px; margin-bottom: 0px;"> للمساعدة :  </p>
 
-                <p style="margin: 0px;"><a href="" class="links">care@maticservices.com</a></p>
+                    <p style="margin: 0px;"><a href="" class="links">care@maticservices.com</a></p>
 
-                <p style="margin-top:0px; margin-bottom: 50px;"><a href="" class="links">8009696</a></p>
+                    <p style="margin-top:0px; margin-bottom: 50px;"><a href="" class="links">8009696</a></p>
 
-                <table class="table">
-                    <thead>
-                        <th>تاريخ الحجز</th>
-                        <th>مبلغ غير مدفوع</th>
-                    </thead>
-                    <tbody>
+                    <table class="table">
+                        <thead>
+                            <th>تاريخ الحجز</th>
+                            <th>مبلغ غير مدفوع</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>subtitle</td>
+                                <td>text</td>
+                            </tr>
+                            <tr>
+                                <td>subtitle</td>
+                                <td>text</td>
+                            </tr>
+                            <tr>
+                                <td>subtitle</td>
+                                <td>text</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="button-container">
                         <tr>
-                            <td>subtitle</td>
-                            <td>text</td>
+                            <td class="button"> 
+                                <a href="" style="color: #ffffff; text-decoration: none;">View your account</a>
+                            </td>
                         </tr>
-                        <tr>
-                            <td>subtitle</td>
-                            <td>text</td>
-                        </tr>
-                        <tr>
-                            <td>subtitle</td>
-                            <td>text</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="button-container">
-                    <tr>
-                        <td class="button"> 
-                            <a href="" style="color: #ffffff; text-decoration: none;">View your account</a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="footer">
+                    </table>
+                </div>
             </div>
             <table class="footer">
                 <tr>

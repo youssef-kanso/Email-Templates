@@ -23,6 +23,7 @@
                 width: 15%;
                 margin: 0 auto;
                 max-width: 130px;
+                min-width: 95px;
             }
 
             .logo img {
@@ -37,6 +38,11 @@
                 color: #ffffff;
                 font-weight: bold;
                 margin: 12px auto;
+            }
+
+            .email-body {
+                background: transparent;
+                backface-visibility: hidden;
             }
 
             .content {
@@ -81,10 +87,10 @@
             }
 
             .table thead {
-                background-color: darkgray;
+                background-color: rgba(185, 185, 185, 0.904);
             }
 
-            .table, th, td{
+            .table, th, td {
                 height: auto;
                 text-align: left;
                 font-size: 20px;
@@ -107,7 +113,7 @@
                 margin: auto;
                 margin-left: 50px;
                 cursor: pointer;
-                text-decoration: none!important;
+                text-decoration: none !important;
             }
 
             .footer {
@@ -159,55 +165,56 @@
                 </div>
                 <p class="headerTitle">Payment Overdue</p>
             </div>
+            <div class="email-body">
+                <div class="content">
+                    <p class="greeting">Dear (name),</p>
 
-            <div class="content">
-                <p class="greeting">Dear (name),</p>
+                    <p class="text">You currently have an overdue payment of <a href="" class="links"> 300 </a> AED. 
+                        We will attempt charging your card on file for the full amount,
+                        so that you can continue to enjoy our services.
+                        If you have already settled the outstanding balance on your account,
+                        please disregard this message and rest assured that you won’t be double charged.
+                    </p>
 
-                <p class="text">You currently have an overdue payment of <a href="" class="links"> 300 </a> AED. 
-                    We will attempt charging your card on file for the full amount,
-                    so that you can continue to enjoy our services.
-                    If you have already settled the outstanding balance on your account,
-                    please disregard this message and rest assured that you won’t be double charged.
-                </p>
+                    <p class="signature">Thank you!</p>
 
-                <p class="signature">Thank you!</p>
+                    <p class="signature">Matic team</p>
 
-                <p class="signature">Matic team</p>
+                    <p style="margin-top: 50px; margin-bottom: 0px;">For assistance: </p>
 
-                <p style="margin-top: 50px; margin-bottom: 0px;">For assistance: </p>
+                    <p style="margin: 0px;"><a href="" class="links">care@maticservices.com</a></p>
+                    
+                    <p style="margin-top: 0px; margin-bottom: 50px; "><a href="" class="links">8009696</a></p>
 
-                <p style="margin: 0px;"><a href="" class="links">care@maticservices.com</a></p>
-                
-                <p style="margin-top: 0px; margin-bottom: 50px; "><a href="" class="links">8009696</a></p>
+                    <table class="table">
+                        <thead>
+                            <th>Booking date</th>
+                            <th>Unpaid amount</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>subtitle</td>
+                                <td>text</td>
+                            </tr>
+                            <tr>
+                                <td>subtitle</td>
+                                <td>text</td>
+                            </tr>
+                            <tr>
+                                <td>subtitle</td>
+                                <td>text</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                <table class="table">
-                    <thead>
-                        <th>Booking date</th>
-                        <th>Unpaid amount</th>
-                    </thead>
-                    <tbody>
+                    <table class="button-container">
                         <tr>
-                            <td>subtitle</td>
-                            <td>text</td>
+                            <td class="button"> 
+                                <a href="" style="color: #ffffff; text-decoration: none;">View your account</a>
+                            </td>
                         </tr>
-                        <tr>
-                            <td>subtitle</td>
-                            <td>text</td>
-                        </tr>
-                        <tr>
-                            <td>subtitle</td>
-                            <td>text</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <table class="button-container">
-                    <tr>
-                        <td class="button"> 
-                            <a href="" style="color: #ffffff;">View your account</a>
-                        </td>
-                    </tr>
-                </table>
+                    </table>
+                </div>
             </div>
             <table class="footer">
                 <tr>
